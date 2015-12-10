@@ -1,0 +1,3 @@
+{
+  extends: ["pouloum", "pouloum/configurations/server"]
+}
