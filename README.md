@@ -1,5 +1,7 @@
 # eslint-config-pouloum
 
+[![devDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum.svg?style=flat)](https://david-dm.org/5im0n/eslint-config-pouloum#info=dependencies)
+
 A set of configurable [ESLint][1] configurations used by meticulous people.
 Inspire by [Meetic][4] configuration
 
