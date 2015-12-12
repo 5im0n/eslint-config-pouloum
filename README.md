@@ -1,7 +1,8 @@
 # eslint-config-pouloum
 
-[![npm](https://img.shields.io/npm/v/eslint-config-pouloum.svg)](https://www.npmjs.com/package/eslint-config-pouloum)
-[![devDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum.svg?style=flat)](https://david-dm.org/5im0n/eslint-config-pouloum#info=dependencies)
+[![npm](https://img.shields.io/npm/v/eslint-config-pouloum.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-pouloum)
+[![GitHub license](https://img.shields.io/github/license/5im0n/eslint-config-pouloum.svg?style=flat-square)]()
+[![devDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum.svg?style=flat-square)](https://david-dm.org/5im0n/eslint-config-pouloum#info=dependencies)
 
 A set of configurable [ESLint][1] configurations used by **meticulous people**.
 *Inspire by [Meetic][4] configuration*
