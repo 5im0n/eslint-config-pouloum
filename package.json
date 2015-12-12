@@ -19,7 +19,7 @@
     "style checker",
     "style linter"
   ],
-  "dependencies": {
-    "eslint": "1.10.0"
+  "peerDependencies": {
+    "eslint": "^1.10.3"
   }
 }
