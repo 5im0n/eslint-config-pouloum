@@ -3,8 +3,8 @@
 [![npm](https://img.shields.io/npm/v/eslint-config-pouloum.svg)](https://www.npmjs.com/package/eslint-config-pouloum)
 [![devDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum.svg?style=flat)](https://david-dm.org/5im0n/eslint-config-pouloum#info=dependencies)
 
-A set of configurable [ESLint][1] configurations used by meticulous people.
-Inspire by [Meetic][4] configuration
+A set of configurable [ESLint][1] configurations used by **meticulous people**.
+*Inspire by [Meetic][4] configuration*
 
 
 ## Installation
@@ -12,9 +12,8 @@ Inspire by [Meetic][4] configuration
 Install this config package
 
 ```bash
-$ npm install --save-dev eslint-config-meetic
+$ npm install --save-dev eslint eslint-config-pouloum
 ```
-*Don't worry about ESLint module, it comes as dependency*
 
 
 ## Usage
