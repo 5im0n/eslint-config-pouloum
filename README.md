@@ -1,5 +1,6 @@
 # eslint-config-pouloum
 
+[![npm](https://img.shields.io/npm/v/eslint-config-pouloum.svg)](https://www.npmjs.com/package/eslint-config-pouloum)
 [![devDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum.svg?style=flat)](https://david-dm.org/5im0n/eslint-config-pouloum#info=dependencies)
 
 A set of configurable [ESLint][1] configurations used by meticulous people.
@@ -51,7 +52,7 @@ of configuration:
 
 If the default configurations does not suit you, you can easily override it
 
-```json
+```js
 {
   "extends": [
     "pouloum"
