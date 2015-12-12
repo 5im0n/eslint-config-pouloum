@@ -1,4 +1,16 @@
 
-### 1.0.0 (2015-12-10)
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/5im0n/eslint-config-pouloum/compare/v1.0.0...v1.0.1) (2015-12-12)
+
+
+### Bug Fixes
+
+* remove useless .eslintrc file ([62e5474](https://github.com/5im0n/eslint-config-pouloum/commit/62e5474)), closes [#1](https://github.com/5im0n/eslint-config-pouloum/issues/1)
+* **package:** eslint module comes now as peerDependencies ([0ec70c4](https://github.com/5im0n/eslint-config-pouloum/commit/0ec70c4)), closes [#3](https://github.com/5im0n/eslint-config-pouloum/issues/3)
+
+
+
+<a name="1.0.0"></a>
+## [1.0.0](https://github.com/5im0n/eslint-config-pouloum/releases/tag/v1.0.0) (2015-12-10)
 
 - Initial release
