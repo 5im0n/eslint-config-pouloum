@@ -10,7 +10,7 @@ module.exports = {
   ],
   env: {
     // browser global variables.
-    browser: true,
+    browser: false,
     // Node.js global variables and Node.js scoping.
     node: false,
      // CommonJS global variables and CommonJS scoping (use this for browser-only code that uses Browserify/WebPack).
