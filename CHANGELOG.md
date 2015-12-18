@@ -1,3 +1,18 @@
+<a name="1.1.0"></a>
+## [1.1.0](https://github.com/5im0n/eslint-config-pouloum/compare/v1.0.1...v1.1.0) (2015-12-18)
+
+
+### Bug Fixes
+
+* **es5:** es5 default configuration does not set env browser to true ([8acb866](https://github.com/5im0n/eslint-config-pouloum/commit/8acb866))
+* **es6:** relax `arrow-body-style` rules to as-needed ([f968aab](https://github.com/5im0n/eslint-config-pouloum/commit/f968aab))
+
+### Features
+
+* **es6:** es6 configuration extends es5 ([05dacc5](https://github.com/5im0n/eslint-config-pouloum/commit/05dacc5))
+* **configuration:** add new configuration `browser` ([0124cae](https://github.com/5im0n/eslint-config-pouloum/commit/0124cae))
+
+
 
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/5im0n/eslint-config-pouloum/compare/v1.0.0...v1.0.1) (2015-12-12)

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pouloum",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ESLint configuration for meticulous people",
   "authors": "Simon MAHÉ <mahe.simon@gmail.com>",
   "main": "index.js",
