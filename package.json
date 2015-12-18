@@ -2,24 +2,29 @@
   "name": "eslint-config-pouloum",
   "version": "1.0.1",
   "description": "ESLint configuration for meticulous people",
+  "authors": "Simon MAHÉ <mahe.simon@gmail.com>",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:5im0n/eslint-config-pouloum.git"
+    "url": "https://github.com/5im0n/eslint-config-pouloum"
   },
-  "authors": "Simon MAHÉ <mahe.simon@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/5im0n/eslint-config-pouloum/issues"
+  },
   "keywords": [
-    "code checker",
-    "code linter",
-    "code standards",
-    "code style",
     "eslint-config",
     "eslint",
+    "code linter",
+    "code style",
     "style checker",
-    "style linter"
+    "style linter",
+    "es5",
+    "es2015",
+    "es6",
+    "meetic"
   ],
   "peerDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "~1.10.3"
   }
 }

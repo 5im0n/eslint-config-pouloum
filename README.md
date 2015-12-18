@@ -1,36 +1,38 @@
 # eslint-config-pouloum
 
+
 [![npm](https://img.shields.io/npm/v/eslint-config-pouloum.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-pouloum)
 [![GitHub license](https://img.shields.io/github/license/5im0n/eslint-config-pouloum.svg?style=flat-square)]()
-[![devDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum.svg?style=flat-square)](https://david-dm.org/5im0n/eslint-config-pouloum#info=dependencies)
+[![peerDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum/peer-status.svg?style=flat-square)](https://david-dm.org/5im0n/eslint-config-pouloum#info=peerDependencies)
 
-A set of configurable [ESLint][1] configurations used by **meticulous people**.
+A set of configurable [ESLint][1] configurations for **meticulous people**.
 *Inspire by [Meetic][4] configuration*
+
 
 
 ## Installation
 
-Install this config package
+You have to install ESLint first and the configuration package
 
 ```bash
 $ npm install --save-dev eslint eslint-config-pouloum
 ```
 
+Install it globally if you want to use this configuration from [command-line](#commande-line-use).
+
+```bash
+$ npm i -g eslint eslint-config-pouloum
+```
+
+
 
 ## Usage
 
 This set of configs is meant to be extended on a per-project basis as necessary
-using ESLint's [shareable configs][2] feature.
-
-This package includes the following configurations:
-
-- `pouloum` - The default ES5 config
-- `pouloum/configurations/es6` - The default ES6 config
-- `pouloum/configurations/server` - The default sever (node) config
+using ESLint's [shareable configs][2].
 
 
-The default configuration assumes ECMAScript-5. To extend a config in ESLint
-just add the extends attribute to your `.eslintrc`:
+- Add the extends attribute to your `.eslintrc`
 
 ```json
 {
@@ -38,42 +40,120 @@ just add the extends attribute to your `.eslintrc`:
 }
 ```
 
-If your project is written in ECMAScript-6, you can extend with the ES6 subset
-of configuration:
+- Or to the `eslintConfig` field of the `package.json` of your project
 
 ```json
 {
-  "extends": [
-    "pouloum",
-    "pouloum/configurations/es6"
-  ]
+  "name": "your-project-name",
+  "eslintConfig": {
+    "extends": "pouloum"
+  }
 }
 ```
 
-If the default configurations does not suit you, you can easily override it
+<a name="commande-line-use"></a>
+
+- You can also use it from command line 
+
+```bash
+$ eslint -c pouloum *.js
+```
+
+### Override
+
+If the default configurations does not suit you, you can easily override it.
+Consult the ESLint documentation for more information about [extending configuration files][5].
 
 ```js
 {
-  "extends": [
-    "pouloum"
-  ],
+  "extends": "pouloum",
+  // Override rule comes heres
   "rules": {
-    // Override rule
     "no-magic-numbers": 0
   }
 }
 ```
 
-You may have to set `env` and `globals` variables depending on your project
+
+
+## Available configurations
+
+This package includes the following configurations:
+
+
+### Standalone
+
+#### ES5 (default)
+
+This is a collection of [rules][6] regarding possible errors, best practices, strict mode, variables and stylistic issues.
+> This default configuration enforces neither `env` nor `globals` settings. You may have to set individually on your project
+
+```json
+{
+  "extends": "pouloum"
+}
+```
+
+#### ES6
+
+If your project is written in ECMAScript-6, you can extend with the ES6 subset of configuration.
+
+- extends the `ES5` configuration
+- add rules related to `ES6` (`arrowFunctions`, `classes`...)
+- overrides some rules (`no-underscore-dangle`...)
+
+```json
+{
+  "extends": [
+    "pouloum/configurations/es6"
+  ]
+}
+```
+
+
+### Extended
+
+> Extended configurations can't be used on its own.
+
+#### Browser
+
+- add the `browser` environment
+- overrides some rules (`no-console`...)
+
+```json
+{
+  "extends": [
+    "pouloum",
+    "pouloum/configurations/browser"
+  ]
+}
+```
+
+#### Server
+
+- adds rules related to Node.js (`no-mixed-requires`, `no-process-exit`...)
+- add the `node` environment
+- overrides some rules (`no-console`, ...)
+
+```json
+{
+  "extends": [
+    "pouloum/configurations/es6",
+    "pouloum/configurations/server"
+  ]
+}
+```
 
 
 
-## Licence
+## License
 
-The [MIT Licence][3] (MIT)
+The [MIT License][3] (MIT)
 
 
 [1]: http://eslint.org/
 [2]: http://eslint.org/docs/developer-guide/shareable-configs
 [3]: https://opensource.org/licenses/MIT
 [4]: https://github.com/Meetic/eslint-config-meetic
+[5]: http://eslint.org/docs/user-guide/configuring#extending-configuration-files
+[6]: http://eslint.org/docs/rules/
