@@ -21,13 +21,13 @@ module.exports = {
     // Enable for-of loops
     forOf: true,
     // Enable generators
-    generators: false,
+    generators: true,
     // Enable modules and global strict mode
-    modules: false,
+    modules: true,
     // Enable computed object literal property names
     objectLiteralComputedProperties: true,
     // Enable duplicate object literal properties in strict mode
-    objectLiteralDuplicateProperties: false,
+    objectLiteralDuplicateProperties: true,
     // Enable object literal shorthand methods
     objectLiteralShorthandMethods: true,
     // Enable object literal shorthand properties
@@ -49,7 +49,7 @@ module.exports = {
     // Enable code point escapes
     unicodeCodePointEscapes: true,
     // allow return statements in the global scope
-    globalReturn: false,
+    globalReturn: true,
     // Enable JSX
     jsx: false
   },

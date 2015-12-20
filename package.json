@@ -3,8 +3,11 @@
   "version": "1.1.0",
   "description": "ESLint configuration for meticulous people",
   "authors": "Simon MAHÉ <mahe.simon@gmail.com>",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/5im0n/eslint-config-pouloum"
@@ -26,5 +29,10 @@
   ],
   "peerDependencies": {
     "eslint": "~1.10.3"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "eslint": "~1.10.3",
+    "is-plain-obj": "^1.1.0"
   }
 }
