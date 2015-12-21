@@ -100,6 +100,7 @@ If your project is written in ECMAScript-6, you can extend with the ES6 subset o
 
 - extends the `ES5` configuration
 - add rules related to `ES6` (`arrowFunctions`, `classes`...)
+- enable all `ecmaFeatures` expect `jsx`
 - overrides some rules (`no-underscore-dangle`...)
 
 ```json
