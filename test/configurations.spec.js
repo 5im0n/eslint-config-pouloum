@@ -1,9 +1,9 @@
 import test from 'ava';
 import isPlainObj from 'is-plain-obj';
 
-import confBrowser from '../configurations/browser';
 import confES5 from '../configurations/es5';
 import confES6 from '../configurations/es6';
+import confBrowser from '../configurations/browser';
 import confServer from '../configurations/server';
 
 

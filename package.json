@@ -32,7 +32,6 @@
   },
   "devDependencies": {
     "ava": "^0.8.0",
-    "eslint": "~1.10.3",
     "is-plain-obj": "^1.1.0"
   }
 }

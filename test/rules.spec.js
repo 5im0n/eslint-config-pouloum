@@ -1,13 +1,13 @@
 import test from 'ava';
 import isPlainObj from 'is-plain-obj';
 
+import rulesPossibleErrors from '../rules/possible-errors';
 import rulesBestPractices from '../rules/best-practices';
+import rulesStrictMode from '../rules/strict-mode';
+import rulesVariables from '../rules/variables';
+import rulesStylisticIssues from '../rules/stylistic-issues';
 import rulesEcmaScript6 from '../rules/ecmascript-6';
 import rulesNode from '../rules/node';
-import rulesPossibleErrors from '../rules/possible-errors';
-import rulesStrictMode from '../rules/strict-mode';
-import rulesStylisticIssues from '../rules/stylistic-issues';
-import rulesVariables from '../rules/variables';
 
 
 /* Rules */
