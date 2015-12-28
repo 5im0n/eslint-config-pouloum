@@ -1,3 +1,13 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/5im0n/eslint-config-pouloum/compare/v1.1.1...v1.1.2) (2015-12-28)
+
+
+### Bug Fixes
+
+* **package:** only included significant files ([5690d80](https://github.com/5im0n/eslint-config-pouloum/commit/5690d80))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/5im0n/eslint-config-pouloum/compare/v1.1.0...v1.1.1) (2015-12-28)
 
