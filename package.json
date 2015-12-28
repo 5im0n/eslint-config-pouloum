@@ -5,6 +5,11 @@
   "authors": "Simon MAHÉ <mahe.simon@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "configurations/",
+    "rules/"
+  ],
   "scripts": {
     "test": "ava"
   },
