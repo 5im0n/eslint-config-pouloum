@@ -1,3 +1,15 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/5im0n/eslint-config-pouloum/compare/v1.1.0...v1.1.1) (2015-12-28)
+
+
+### Bug Fixes
+
+* **test:** add unit tests, closes [#4](https://github.com/5im0n/eslint-config-pouloum/issues/4)
+* **test:** add Travis integration
+* **package:** remove eslint from devDependencies ([3f8abba](https://github.com/5im0n/eslint-config-pouloum/commit/3f8abba))
+
+
+
 <a name="1.1.0"></a>
 ## [1.1.0](https://github.com/5im0n/eslint-config-pouloum/compare/v1.0.1...v1.1.0) (2015-12-18)
 
