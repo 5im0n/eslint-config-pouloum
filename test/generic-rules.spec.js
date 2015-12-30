@@ -10,7 +10,7 @@ import rulesEcmaScript6 from '../rules/ecmascript-6';
 import rulesNode from '../rules/node';
 
 
-/* Rules */
+/* Generic Rules */
 
 test('Best Practices', t => {
   t.true(isPlainObj(rulesBestPractices));
