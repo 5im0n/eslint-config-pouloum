@@ -9,7 +9,7 @@
 module.exports = {
   rules: {
     // require a consistent DI syntax
-    'angular/di': [2, '$inject'],
+    'angular/di': [2, 'function'],
     // require DI parameters to be sorted alphabetically
     'angular/di-order': [0, true],
     // unittest inject functions should only consist of assignments from injected values to describe block variables
