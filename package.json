@@ -11,7 +11,7 @@
     "rules/"
   ],
   "scripts": {
-    "test": "ava"
+    "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
     "eslint": "~1.10.3"
   },
   "devDependencies": {
-    "ava": "^0.8.0",
+    "ava": "^0.9.1",
     "is-plain-obj": "^1.1.0"
   }
 }
