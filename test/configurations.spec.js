@@ -5,6 +5,7 @@ import confES5 from '../configurations/es5';
 import confES6 from '../configurations/es6';
 import confBrowser from '../configurations/browser';
 import confServer from '../configurations/server';
+import confAngular from '../configurations/angular';
 
 
 
@@ -43,4 +44,17 @@ test('Server', t => {
   t.true(confServer.env.node);
   t.false(confServer.env.browser);
   t.true(confServer.extends.indexOf('pouloum/rules/node') >= 0);
+});
+
+test('Angular', t => {
+  t.true(isPlainObj(confAngular));
+
+  t.true(confAngular.plugins.indexOf('angular') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/rules/angular/possible-errors') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/rules/angular/best-practices') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/rules/angular/deprecated-features') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/rules/angular/naming') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/rules/angular/conventions') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/rules/angular/wrappers') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/configurations/browser') >= 0);
 });

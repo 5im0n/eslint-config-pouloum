@@ -146,6 +146,26 @@ If your project is written in ECMAScript-6, you can extend with the ES6 subset o
 }
 ```
 
+#### Angular
+
+This configuration is base on the [ESLint angular plugin][7] therefore you have to install it before using this configuration:
+
+```bash
+$ npm install --save-dev eslint-plugin-angular
+```
+
+- collection of [rules][8] regarding possible errors, best practices, naming, deprecated features, conventions and wrappers
+- extends the `browser` configuration
+
+```json
+{
+  "extends": [
+    "pouloum",
+    "pouloum/configurations/angular"
+  ]
+}
+```
+
 
 
 ## License
@@ -159,3 +179,5 @@ The [MIT License][3] (MIT)
 [4]: https://github.com/Meetic/eslint-config-meetic
 [5]: http://eslint.org/docs/user-guide/configuring#extending-configuration-files
 [6]: http://eslint.org/docs/rules/
+[7]: https://www.npmjs.com/package/eslint-plugin-angular
+[8]: https://www.npmjs.com/package/eslint-plugin-angular#rules
