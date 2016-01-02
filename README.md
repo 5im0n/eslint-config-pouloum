@@ -5,6 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/5im0n/eslint-config-pouloum.svg?style=flat-square)]()
 [![peerDependency Status](https://david-dm.org/5im0n/eslint-config-pouloum/peer-status.svg?style=flat-square)](https://david-dm.org/5im0n/eslint-config-pouloum#info=peerDependencies)
 [![Travis](https://img.shields.io/travis/5im0n/eslint-config-pouloum/master.svg?style=flat-square)](https://travis-ci.org/5im0n/eslint-config-pouloum)
+[![Code Climate](https://img.shields.io/codeclimate/github/5im0n/eslint-config-pouloum.svg?style=flat-square)](https://codeclimate.com/github/5im0n/eslint-config-pouloum)
 
 A set of configurable [ESLint][1] configurations for **meticulous people**.
 *Inspire by [Meetic][4] configuration*
