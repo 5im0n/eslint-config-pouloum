@@ -53,5 +53,11 @@ module.exports = {
     webextensions: false,
     // enable all ECMAScript 6 features except for modules.
     es6: false
+  },
+  parserOptions: {
+    ecmaVersion: 5,
+    ecmaFeatures: {
+      sourceType: 'script'
+    }
   }
 };

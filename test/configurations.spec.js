@@ -12,6 +12,7 @@ import confAngular from '../configurations/angular';
 test('ES5', t => {
   t.true(isPlainObj(confES5));
   t.true(isPlainObj(confES5.env));
+  t.true(confES5.parserOptions.ecmaVersion === 5);
 
   t.true(confES5.extends.indexOf('pouloum/rules/possible-errors') >= 0);
   t.true(confES5.extends.indexOf('pouloum/rules/best-practices') >= 0);
@@ -23,7 +24,8 @@ test('ES5', t => {
 test('ES6', t => {
   t.true(isPlainObj(confES6));
   t.true(isPlainObj(confES6.rules));
-  t.true(isPlainObj(confES6.ecmaFeatures));
+  t.true(isPlainObj(confES6.parserOptions));
+  t.true(confES6.parserOptions.ecmaVersion === 6);
 
   t.true(confES6.extends.indexOf('pouloum/configurations/es5') >= 0);
   t.true(confES6.extends.indexOf('pouloum/rules/ecmascript-6') >= 0);
