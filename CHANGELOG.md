@@ -1,3 +1,12 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/5im0n/eslint-config-pouloum/compare/v1.1.2...v1.2.0) (2016-01-02)
+
+### Features
+
+* **configurations:** new configuration: Angular ([c59916a](https://github.com/5im0n/eslint-config-pouloum/commit/c59916a))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/5im0n/eslint-config-pouloum/compare/v1.1.1...v1.1.2) (2015-12-28)
 
