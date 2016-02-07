@@ -1,3 +1,12 @@
+<a name="1.2.1"></a>
+# [1.2.1](https://github.com/5im0n/eslint-config-pouloum/compare/v1.2.0...v1.2.1) (2016-02-07)
+
+### Chore
+
+* Update dev dependencies: ava and nyc
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/5im0n/eslint-config-pouloum/compare/v1.1.2...v1.2.0) (2016-01-02)
 
