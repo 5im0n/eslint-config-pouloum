@@ -15,7 +15,7 @@ module.exports = {
     // disallow use of console
     'no-console': 0,
     // disallow use of constant expressions in conditions
-    'no-constant-condition': 1,
+    'no-constant-condition': 2,
     // disallow control characters in regular expressions
     'no-control-regex': 2,
     // disallow use of debugger
@@ -26,10 +26,10 @@ module.exports = {
     'no-dupe-keys': 2,
     // disallow a duplicate case label.
     'no-duplicate-case': 2,
-    // disallow the use of empty character classes in regular expressions
-    'no-empty-character-class': 2,
     // disallow empty statements
     'no-empty': 2,
+    // disallow the use of empty character classes in regular expressions
+    'no-empty-character-class': 2,
     // disallow assigning to the exception in a catch block
     'no-ex-assign': 2,
     // disallow double-negation boolean casts in a boolean context
@@ -55,7 +55,7 @@ module.exports = {
     // disallow sparse arrays
     'no-sparse-arrays': 2,
     // Avoid code that looks like two expressions but is actually one
-    'no-unexpected-multiline': 1,
+    'no-unexpected-multiline': 2,
     // disallow unreachable statements after a return, throw, continue, or break statement
     'no-unreachable': 2,
     // disallow comparisons with the value NaN
