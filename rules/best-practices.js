@@ -75,7 +75,7 @@ module.exports = {
     // disallow creation of functions within loops
     'no-loop-func': 2,
     // disallow the use of magic numbers
-    'no-magic-numbers': 2,
+    'no-magic-numbers': [2, { ignore: [0, 1] }],
     // disallow use of multiple spaces
     'no-multi-spaces': 0,
     // disallow use of multiline strings
