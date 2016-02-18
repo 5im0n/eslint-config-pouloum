@@ -10,9 +10,8 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 6,
+    sourceType: 'module',
     ecmaFeatures: {
-      // Enable modules and global strict mode
-      sourceType: 'module',
       // allow return statements in the global scope
       globalReturn: true,
       // Enable JSX
