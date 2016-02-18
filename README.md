@@ -101,6 +101,7 @@ This is a collection of [rules][6] regarding possible errors, best practices, st
 If your project is written in ECMAScript-6, you can extend with the ES6 subset of configuration.
 
 - extends the `ES5` configuration
+- set `sourceType` to module
 - add rules related to `ES6` (`arrowFunctions`, `classes`...)
 - enable all `ecmaFeatures` expect `jsx`
 - overrides some rules (`no-underscore-dangle`...)

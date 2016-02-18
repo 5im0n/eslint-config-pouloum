@@ -1,3 +1,14 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/5im0n/eslint-config-pouloum/compare/v1.2.1...v2.0.0) (2016-02-18)
+
+
+### Breaking Changes
+
+* **v2:** migrating configurations to [ESLint V2](http://eslint.org/docs/user-guide/migrating-to-2.0.0.html)
+* **v2:** implement new rules and remove reprecated rules ([18801d0](https://github.com/5im0n/eslint-config-pouloum/commit/18801d0))
+
+
+
 <a name="1.2.1"></a>
 # [1.2.1](https://github.com/5im0n/eslint-config-pouloum/compare/v1.2.0...v1.2.1) (2016-02-07)
 
