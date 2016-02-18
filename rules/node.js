@@ -22,6 +22,8 @@ module.exports = {
     'no-path-concat': 2,
     // Disallow process.exit() (on by default in the node environment)
     'no-process-exit': 2,
+    //  restrict usage of specified node imports
+    'no-restricted-imports': 0,
     // Restrict usage of specified node modules (off by default)
     'no-restricted-modules': 0,
     // Disallow use of synchronous methods (off by default)

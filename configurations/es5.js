@@ -13,8 +13,10 @@ module.exports = {
     browser: false,
     // Node.js global variables and Node.js scoping.
     node: false,
-     // CommonJS global variables and CommonJS scoping (use this for browser-only code that uses Browserify/WebPack).
+    // CommonJS global variables and CommonJS scoping (use this for browser-only code that uses Browserify/WebPack).
     commonjs: false,
+    // enable all ECMAScript 6 features except for modules.
+    es6: false,
     // web workers global variables.
     worker: false,
     // defines require() and define() as global variables as per the amd spec.
@@ -49,9 +51,15 @@ module.exports = {
     serviceworker: false,
     // Ember test helper globals.
     embertest: false,
+    // Atom test helper globals.
+    atomtest: false,
     // WebExtensions globals.
     webextensions: false,
-    // enable all ECMAScript 6 features except for modules.
-    es6: false
+    // GreaseMonkey globals.
+    greasemonkey: false
+  },
+  parserOptions: {
+    ecmaVersion: 5,
+    sourceType: 'script'
   }
 };
