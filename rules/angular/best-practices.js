@@ -10,12 +10,12 @@ module.exports = {
   rules: {
     // limit the number of angular components per file
     'angular/component-limit': [0, 1],
-    // disallow assignments to $scope in controllers
-    'angular/controller-as': 2,
     // require the use of controllerAs in routes or states
     'angular/controller-as-route': 2,
     // require and specify a capture variable for this in controllers
     'angular/controller-as-vm': [2, 'vm'],
+    // disallow assignments to $scope in controllers
+    'angular/controller-as': 2,
     // use $q(function(resolve, reject){}) instead of $q.deferred
     'angular/deferred': 0,
     // disallow unused DI parameters

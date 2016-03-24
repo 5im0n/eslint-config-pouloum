@@ -8,11 +8,11 @@
 
 module.exports = {
   rules: {
+    'angular/di-order': [0, true],
+    // unittest inject functions should only consist of assignments from injected values to describe block variables
     // require a consistent DI syntax
     'angular/di': [2, 'function'],
     // require DI parameters to be sorted alphabetically
-    'angular/di-order': [0, true],
-    // unittest inject functions should only consist of assignments from injected values to describe block variables
     'angular/dumb-inject': 0,
     // require and specify a consistent function style for components ('named' or 'anonymous')
     'angular/function-type': [2, 'named'],
