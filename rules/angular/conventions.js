@@ -8,23 +8,23 @@
 
 module.exports = {
   rules: {
-    'angular/di-order': [0, true],
+    'angular/di-order': ['off', true],
     // unittest inject functions should only consist of assignments from injected values to describe block variables
     // require a consistent DI syntax
-    'angular/di': [2, 'function'],
+    'angular/di': ['error', 'function'],
     // require DI parameters to be sorted alphabetically
-    'angular/dumb-inject': 0,
+    'angular/dumb-inject': 'off',
     // require and specify a consistent function style for components ('named' or 'anonymous')
-    'angular/function-type': [2, 'named'],
+    'angular/function-type': ['error', 'named'],
     // require a consistent order of module dependencies
-    'angular/module-dependency-order': 0,
+    'angular/module-dependency-order': 'off',
     // use factory() instead of service() (y040)
-    'angular/no-service-method': 0,
+    'angular/no-service-method': 'off',
     // require all DI parameters to be located in their own line
-    'angular/one-dependency-per-line': 0,
+    'angular/one-dependency-per-line': 'off',
     // disallow different rest service and specify one of '$http', '$resource', 'Restangular'
-    'angular/rest-service': 0,
+    'angular/rest-service': 'off',
     // require and specify consistent use $scope.digest() or $scope.apply()
-    'angular/watchers-execution': [0, '$digest']
+    'angular/watchers-execution': ['off', '$digest']
   }
 };

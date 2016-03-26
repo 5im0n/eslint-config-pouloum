@@ -9,16 +9,16 @@
 module.exports = {
   rules: {
     // require and specify a prefix for all controller names (y123, y124)
-    'angular/controller-name': [2, '/[A-Z].*Controller$/'],
+    'angular/controller-name': ['error', '/[A-Z].*Controller$/'],
     // require and specify a prefix for all directive names (y073, y126)
-    'angular/directive-name': 0,
+    'angular/directive-name': 'off',
     // require and specify a consistent component name pattern
-    'angular/file-name': [0, { nameStyle: 'dash', typeSeparator: 'dot', ignoreTypeSuffix: true, ignorePrefix: 'ui' }],
+    'angular/file-name': ['off', { nameStyle: 'dash', typeSeparator: 'dot', ignoreTypeSuffix: true, ignorePrefix: 'ui' }],
     // require and specify a prefix for all filter names
-    'angular/filter-name': [2, '/[A-Z].*Filter$/'],
+    'angular/filter-name': ['error', '/[A-Z].*Filter$/'],
     // require and specify a prefix for all module names (y127)
-    'angular/module-name': 0,
+    'angular/module-name': 'off',
     // require and specify a prefix for all service names (y125)
-    'angular/service-name': 2
+    'angular/service-name': 'error'
   }
 };

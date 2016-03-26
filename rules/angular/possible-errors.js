@@ -9,10 +9,10 @@
 module.exports = {
   rules: {
     // disallow to reference modules with variables and require to use the getter syntax instead
-    'angular/module-getter': 2,
+    'angular/module-getter': 'error',
     // disallow to assign modules to variables
-    'angular/module-setter': 2,
+    'angular/module-setter': 'error',
     //  disallow use of internal angular properties prefixed with $$
-    'angular/no-private-call': 2
+    'angular/no-private-call': 'error'
   }
 };

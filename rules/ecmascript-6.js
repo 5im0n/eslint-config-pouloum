@@ -10,50 +10,50 @@
 module.exports = {
   rules: {
     // require braces in arrow function body
-    'arrow-body-style': [2, 'as-needed'],
+    'arrow-body-style': ['error', 'as-needed'],
     // Require parens in arrow function arguments
-    'arrow-parens': [2, 'as-needed'],
+    'arrow-parens': ['error', 'as-needed'],
     // Require space before/after arrow function's arrow (fixable)
-    'arrow-spacing': 2,
+    'arrow-spacing': 'error',
     // Verify super() callings in constructors
-    'constructor-super': 2,
+    'constructor-super': 'error',
     // Enforce the spacing around the * in generator functions
-    'generator-star-spacing': [2, 'after'],
+    'generator-star-spacing': ['error', 'after'],
     // Disallow modifying variables of class declarations
-    'no-class-assign': 2,
+    'no-class-assign': 'error',
     // Disallow arrow functions where they could be confused with comparisons
-    'no-confusing-arrow': 2,
+    'no-confusing-arrow': 'error',
     // Disallow modifying variables that are declared using const
-    'no-const-assign': 2,
+    'no-const-assign': 'error',
     // Disallow duplicate name in class members
-    'no-dupe-class-members': 2,
+    'no-dupe-class-members': 'error',
     // disallow use of the new operator with the Symbol object
-    'no-new-symbol': 2,
+    'no-new-symbol': 'error',
     // Disallow to use this/super before super() calling in constructors. (off by default)
-    'no-this-before-super': 2,
+    'no-this-before-super': 'error',
     // disallow unnecessary constructor
-    'no-useless-constructor': 2,
+    'no-useless-constructor': 'error',
     // Require let or const instead of var (off by default)
-    'no-var': 2,
+    'no-var': 'error',
     // Require method and property shorthand syntax for object literals (off by default)
-    'object-shorthand': [2, 'always'],
+    'object-shorthand': ['error', 'always'],
     // Suggest using arrow functions as callbacks
-    'prefer-arrow-callback': 0,
+    'prefer-arrow-callback': 'off',
     // Suggest using const declaration for variables that are never modified after declared
-    'prefer-const': 2,
+    'prefer-const': 'error',
     // Suggest using Reflect methods where applicable
-    'prefer-reflect': 0,
+    'prefer-reflect': 'off',
     // Suggest using the rest parameters instead of arguments
-    'prefer-rest-params': 2,
+    'prefer-rest-params': 'error',
     // Suggest using the spread operator instead of .apply().
-    'prefer-spread': 2,
+    'prefer-spread': 'error',
     // Suggest using template literals instead of strings concatenation
-    'prefer-template': 2,
+    'prefer-template': 'error',
     // Disallow generator functions that do not have yield
-    'require-yield': 2,
+    'require-yield': 'error',
     // Enforce spacing around embedded expressions of template strings
-    'template-curly-spacing': [2, 'never'],
+    'template-curly-spacing': ['error', 'never'],
     // Enforce spacing around the * in yield* expressions
-    'yield-star-spacing': [2, 'before']
+    'yield-star-spacing': ['error', 'before']
   }
 };

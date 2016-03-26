@@ -9,38 +9,38 @@
 module.exports = {
   rules: {
     // use angular.element instead of $ or jQuery
-    'angular/angularelement': 1,
+    'angular/angularelement': 'warn',
     // use angular.isDefined and angular.isUndefined instead of other undefined checks
-    'angular/definedundefined': 2,
+    'angular/definedundefined': 'error',
     // use $document instead of document (y180)
-    'angular/document-service': 2,
+    'angular/document-service': 'error',
     // use angular.forEach instead of native Array.prototype.forEach
-    'angular/foreach': 0,
+    'angular/foreach': 'off',
     // use $interval instead of setInterval (y181)
-    'angular/interval-service': 2,
+    'angular/interval-service': 'error',
     // use angular.fromJson and 'angular.toJson' instead of JSON.parse and JSON.stringify
-    'angular/json-functions': 2,
+    'angular/json-functions': 'error',
     // use the $log service instead of the console methods
-    'angular/log': 2,
+    'angular/log': 'error',
     // require to use angular.mock methods directly
-    'angular/no-angular-mock': 0,
+    'angular/no-angular-mock': 'off',
     // disallow to wrap angular.element objects with jQuery or $
-    'angular/no-jquery-angularelement': 2,
+    'angular/no-jquery-angularelement': 'error',
     // use $timeout instead of setTimeout (y181)
-    'angular/timeout-service': 2,
+    'angular/timeout-service': 'error',
     // use angular.isArray instead of typeof comparisons
-    'angular/typecheck-array': 2,
+    'angular/typecheck-array': 'error',
     // use angular.isDate instead of typeof comparisons
-    'angular/typecheck-date': 2,
+    'angular/typecheck-date': 'error',
     // use angular.isFunction instead of typeof comparisons
-    'angular/typecheck-function': 2,
+    'angular/typecheck-function': 'error',
     // use angular.isNumber instead of typeof comparisons
-    'angular/typecheck-number': 2,
+    'angular/typecheck-number': 'error',
     // use angular.isObject instead of typeof comparisons
-    'angular/typecheck-object': 2,
+    'angular/typecheck-object': 'error',
     // use angular.isString instead of typeof comparisons
-    'angular/typecheck-string': 2,
+    'angular/typecheck-string': 'error',
     // use $window instead of window
-    'angular/window-service': 2
+    'angular/window-service': 'error'
   }
 };

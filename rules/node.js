@@ -9,24 +9,24 @@
 module.exports = {
   rules: {
     // enforce return after a callback
-    'callback-return': 0,
+    'callback-return': 'off',
     // enforce require() on top-level module scope
-    'global-require': 1,
+    'global-require': 'warn',
     // Enforces error handling in callbacks (off by default) (on by default in the node environment)
-    'handle-callback-err': [2, '^.*(e|E)rr(or)?$'],
+    'handle-callback-err': ['error', '^.*(e|E)rr(or)?$'],
     // Disallow mixing regular variable and require declarations
-    'no-mixed-requires': 2,
+    'no-mixed-requires': 'error',
     // Disallow use of new operator with the require function
-    'no-new-require': 2,
+    'no-new-require': 'error',
     // Disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)
-    'no-path-concat': 2,
+    'no-path-concat': 'error',
     // Disallow process.exit() (on by default in the node environment)
-    'no-process-exit': 2,
+    'no-process-exit': 'error',
     //  restrict usage of specified node imports
-    'no-restricted-imports': 0,
+    'no-restricted-imports': 'off',
     // Restrict usage of specified node modules (off by default)
-    'no-restricted-modules': 0,
+    'no-restricted-modules': 'off',
     // Disallow use of synchronous methods (off by default)
-    'no-sync': 0
+    'no-sync': 'off'
   }
 };

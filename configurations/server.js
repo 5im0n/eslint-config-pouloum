@@ -9,6 +9,6 @@ module.exports = {
     browser: false
   },
   rules: {
-    'no-console': 0
+    'no-console': 'off'
   }
 };

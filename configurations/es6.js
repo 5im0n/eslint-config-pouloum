@@ -20,6 +20,6 @@ module.exports = {
   },
   rules: {
      // Disallow dangling underscores in identifiers
-    'no-underscore-dangle': 2
+    'no-underscore-dangle': 'error'
   }
 };
