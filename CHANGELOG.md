@@ -1,3 +1,14 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/5im0n/eslint-config-pouloum/compare/v2.0.0...v2.1.0) (2016-03-26)
+
+
+### Chore
+
+* Update peer dependencies: `eslint-plugin-angular` and `eslint`
+* Update dev dependencies: `ava` and `nyc`
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/5im0n/eslint-config-pouloum/compare/v1.2.1...v2.0.0) (2016-02-18)
 
@@ -14,7 +25,7 @@
 
 ### Chore
 
-* Update dev dependencies: ava and nyc
+* Update dev dependencies: `ava` and `nyc`
 
 
 
