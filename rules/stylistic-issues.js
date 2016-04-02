@@ -55,9 +55,9 @@ module.exports = {
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': ['warn', 4],
     // limits the number of parameters that can be used in the function declaration.
-    'max-params': 'off',
+    'max-params': ['off', 10],
     // specify the maximum number of statement allowed in a function
-    'max-statements': ['off', 15],
+    'max-statements': ['warn', { max: 15 }, { ignoreTopLevelFunctions: true}],
     // specify the maximum number of statements allowed per line
     'max-statements-per-line': ['error', { 'max': 2 }],
     // require a capital letter for constructors

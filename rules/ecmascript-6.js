@@ -22,7 +22,7 @@ module.exports = {
     // Disallow modifying variables of class declarations
     'no-class-assign': 'error',
     // Disallow arrow functions where they could be confused with comparisons
-    'no-confusing-arrow': 'error',
+    'no-confusing-arrow': ['error', { allowParens: true }],
     // Disallow modifying variables that are declared using const
     'no-const-assign': 'error',
     // Disallow duplicate name in class members
@@ -42,7 +42,7 @@ module.exports = {
     // Suggest using arrow functions as callbacks
     'prefer-arrow-callback': 'off',
     // Suggest using const declaration for variables that are never modified after declared
-    'prefer-const': 'error',
+    'prefer-const': ['error', { destructuring: 'any' }],
     // Suggest using Reflect methods where applicable
     'prefer-reflect': 'off',
     // Suggest using the rest parameters instead of arguments
