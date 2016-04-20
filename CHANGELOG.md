@@ -1,10 +1,21 @@
+<a name="2.1.2"></a>
+# [2.1.2](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.1...v2.1.1) (2016-04-20)
+
+
+### Chore
+
+* Update peer dependency: `eslint`
+* Update dev dependencies: `ava` and `nyc`
+
+
+
 <a name="2.1.1"></a>
 # [2.1.1](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.0...v2.1.1) (2016-04-02)
 
 
 ### Chore
 
-* Update peer dependencies: `eslint`
+* Update peer dependency: `eslint`
 * Apply ESLint v2.6.0 enhancements
 
 
