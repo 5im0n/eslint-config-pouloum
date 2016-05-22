@@ -15,7 +15,7 @@ module.exports = {
     // require and specify a consistent component name pattern
     'angular/file-name': ['off', { nameStyle: 'dash', typeSeparator: 'dot', ignoreTypeSuffix: true, ignorePrefix: 'ui' }],
     // require and specify a prefix for all filter names
-    'angular/filter-name': ['error', '/[A-Z].*Filter$/'],
+    'angular/filter-name': ['off', '/[A-Z].*Filter$/'],
     // require and specify a prefix for all module names (y127)
     'angular/module-name': 'off',
     // require and specify a prefix for all service names (y125)
