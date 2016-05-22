@@ -40,7 +40,7 @@ module.exports = {
     // Require method and property shorthand syntax for object literals (off by default)
     'object-shorthand': ['error', 'always'],
     // Suggest using arrow functions as callbacks
-    'prefer-arrow-callback': 'off',
+    'prefer-arrow-callback': ['error', { 'allowNamedFunctions': true }],
     // Suggest using const declaration for variables that are never modified after declared
     'prefer-const': ['error', { destructuring: 'any' }],
     // Suggest using Reflect methods where applicable
