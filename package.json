@@ -35,7 +35,7 @@
     "meetic"
   ],
   "peerDependencies": {
-    "eslint": "~2.9.0",
+    "eslint": "~2.10.2",
     "eslint-plugin-angular": "~1.0.1"
   },
   "devDependencies": {

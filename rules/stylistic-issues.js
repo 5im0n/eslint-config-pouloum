@@ -108,6 +108,8 @@ module.exports = {
     'no-whitespace-before-property': 'error',
     // require or disallow padding inside curly braces
     'object-curly-spacing': ['warn', 'always', { objectsInObjects: false, arraysInObjects: true }],
+    // enforce placing object properties on separate lines
+    'object-property-newline': ['warn', { 'allowMultiplePropertiesPerLine': true }],
     // allow just one var statement per function
     'one-var': ['error', 'never'],
      // require or disallow an newline around variable declarations
