@@ -1,3 +1,18 @@
+<a name="2.1.3"></a>
+## [2.1.3](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.2...v2.1.3) (2016-05-24)
+
+### Chore
+
+* Update peer dependency: `eslint` 2.10.2
+
+### Breaking Changes
+
+* **es6**: enforce prefer-arrow-callback
+* **es6**: add allowAfterThis option after no-underscore-dangle rule
+* **Stylistic Issues**: add object-property-newline rule
+
+
+
 <a name="2.1.2"></a>
 # [2.1.2](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.1...v2.1.1) (2016-04-20)
 
