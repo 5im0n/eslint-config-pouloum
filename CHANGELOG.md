@@ -1,5 +1,5 @@
 <a name="2.1.3"></a>
-## [2.1.3](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.2...v2.1.3) (2016-05-24)
+# [2.1.3](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.2...v2.1.3) (2016-05-24)
 
 ### Chore
 

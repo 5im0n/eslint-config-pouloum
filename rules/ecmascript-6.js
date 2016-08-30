@@ -37,6 +37,8 @@ module.exports = {
     'no-useless-computed-key': 'error',
     // disallow unnecessary constructor
     'no-useless-constructor': 'error',
+    // disallow renaming import, export, and destructured assignments to the same name
+    'no-useless-rename': 'error',
     // Require let or const instead of var (off by default)
     'no-var': 'error',
     // Require method and property shorthand syntax for object literals (off by default)
@@ -55,6 +57,8 @@ module.exports = {
     'prefer-template': 'error',
     // Disallow generator functions that do not have yield
     'require-yield': 'error',
+    // Enforce spacing between rest and spread operators and their expressions
+    'rest-spread-spacing': ['error', 'never'],
     // Enforce spacing around embedded expressions of template strings
     'template-curly-spacing': ['error', 'never'],
     // Enforce spacing around the * in yield* expressions

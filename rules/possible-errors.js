@@ -50,6 +50,8 @@ module.exports = {
     'no-negated-in-lhs': 'error',
     // disallow the use of object properties of the global object (Math and JSON) as functions
     'no-obj-calls': 'error',
+    // disallow calling some Object.prototype methods directly on objects
+    'no-prototype-builtins': 'error',
     // disallow multiple spaces in a regular expression literal
     'no-regex-spaces': 'error',
     // disallow sparse arrays

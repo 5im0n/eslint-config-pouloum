@@ -52,6 +52,8 @@ module.exports = {
     'max-depth': ['warn', 4],
     // specify the maximum length of a line in your program
     'max-len': ['error', 130, 4],
+    // enforce a maximum number of lines per file
+    'max-lines': ['error', { max: 400, skipComments: true}],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': ['warn', 4],
     // limits the number of parameters that can be used in the function declaration.
@@ -80,6 +82,8 @@ module.exports = {
     'no-inline-comments': 'off',
     // disallow if as the only statement in an else block
     'no-lonely-if': 'warn',
+    // disallow mixed binary operators
+    'no-mixed-operators': ['error', { allowSamePrecedence: true }],
     // disallow mixed spaces and tabs for indentation
     'no-mixed-spaces-and-tabs': 'error',
     // disallow multiple empty lines and only one newline at the end
@@ -106,6 +110,8 @@ module.exports = {
     'no-unneeded-ternary': 'warn',
      // disallow whitespace before properties
     'no-whitespace-before-property': 'error',
+    // enforce consistent line breaks inside braces
+    'object-curly-newline': ['error', { multiline: true }],
     // require or disallow padding inside curly braces
     'object-curly-spacing': ['warn', 'always', { objectsInObjects: false, arraysInObjects: true }],
     // enforce placing object properties on separate lines
@@ -149,6 +155,8 @@ module.exports = {
       exceptions: ['-', '+'],
       markers: ['=', '!'] // space here to support sprockets directives
     }],
+    // require or disallow Unicode byte order mark (BOM)
+    'unicode-bom': 'off',
     // require regex literals to be wrapped in parentheses
     'wrap-regex': 'off'
   }
