@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pouloum",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "description": "ESLint configuration for meticulous people",
   "authors": "Simon MAHÉ <mahe.simon@gmail.com>",
   "license": "MIT",

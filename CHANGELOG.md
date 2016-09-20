@@ -1,3 +1,23 @@
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.3...v2.2.0) (2016-09-20)
+
+
+> This is the last release for ESLint v2.x
+
+### Chore
+
+* Update peer dependency: `eslint` 2.13.1
+
+### Features
+
+* Add no-useless-rename, unicode-bom, no-prototype-builtins, max-lines, no-mixed-operators, object-curly-newline, rest-spread-spacing rules
+
+### Bug Fixes
+
+* **stylisticIssues:** enforce warn to func-names expression ([a38e50a](https://github.com/5im0n/eslint-config-pouloum/commit/a38e50a))
+
+
+
 <a name="2.1.3"></a>
 # [2.1.3](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.2...v2.1.3) (2016-05-24)
 
