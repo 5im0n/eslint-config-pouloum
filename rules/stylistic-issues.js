@@ -27,9 +27,9 @@ module.exports = {
     // enforce newline at the end of file, with no multiple empty lines
     'eol-last': 'error',
     // require function expressions to have a name
-    'func-names': 'off',
+    'func-names': ['warn', 'always'],
     // enforces use of function declarations or expressions
-    'func-style': ['warn', 'declaration'],
+    'func-style': ['warn', 'declaration', { 'allowArrowFunctions': true }],
     // blacklist certain identifiers to prevent them being used
     'id-blacklist': ['error', 'e', 'cb'],
     // enforce this rules this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
