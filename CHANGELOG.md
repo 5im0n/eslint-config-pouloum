@@ -1,3 +1,16 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/5im0n/eslint-config-pouloum/compare/v2.2.0...v3.0.0) (2016-10-09)
+
+### Chore
+
+* **Breaking** Update peer dependency: `eslint` 3.0.1 ([f907608](https://github.com/5im0n/eslint-config-pouloum/commit/f907608))
+
+### Features
+
+* **Breaking** set ES6 as default configuration ([03c78bd](https://github.com/5im0n/eslint-config-pouloum/commit/03c78bd))
+
+
+
 <a name="2.2.0"></a>
 # [2.2.0](https://github.com/5im0n/eslint-config-pouloum/compare/v2.1.3...v2.2.0) (2016-09-20)
 
