@@ -1,4 +1,4 @@
 'use strict';
 
 // load default configuration
-module.exports = require('./configurations/es5');
+module.exports = require('./configurations/es6');

@@ -85,18 +85,7 @@ This package includes the following configurations:
 
 ### Standalone
 
-#### ES5 (default)
-
-This is a collection of [rules][6] regarding possible errors, best practices, strict mode, variables and stylistic issues.
-> This default configuration enforces neither `env` nor `globals` settings. You may have to set individually on your project
-
-```json
-{
-  "extends": "pouloum"
-}
-```
-
-#### ES6
+#### ES6 (default)
 
 If your project is written in ECMAScript-6, you can extend with the ES6 subset of configuration.
 
@@ -111,6 +100,17 @@ If your project is written in ECMAScript-6, you can extend with the ES6 subset o
   "extends": [
     "pouloum/configurations/es6"
   ]
+}
+```
+
+#### ES5 
+
+This is a collection of [rules][6] regarding possible errors, best practices, strict mode, variables and stylistic issues.
+> This configuration enforces neither `env` nor `globals` settings. You may have to set individually on your project
+
+```json
+{
+  "extends": "pouloum"
 }
 ```
 
