@@ -35,12 +35,12 @@
     "meetic"
   ],
   "peerDependencies": {
-    "eslint": "~2.13.1",
+    "eslint": "~3.0.1",
     "eslint-plugin-angular": "~1.0.1"
   },
   "devDependencies": {
     "ava": "^0.16.0",
     "is-plain-obj": "^1.1.0",
-    "nyc": "^8.3.0"
+    "nyc": "^8.3.1"
   }
 }
