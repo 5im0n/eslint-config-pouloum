@@ -26,6 +26,11 @@ Install it globally if you want to use this configuration from [command-line](#c
 $ npm i -g eslint eslint-config-pouloum
 ```
 
+If you use ESLint v2.X please install the last configuration that suits the previous major version
+
+```bash
+$ npm i -g eslint eslint-config-pouloum@2.2.0
+```
 
 
 ## Usage
