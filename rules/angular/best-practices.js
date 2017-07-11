@@ -17,7 +17,7 @@ module.exports = {
     // disallow assignments to $scope in controllers
     'angular/controller-as': 'error',
     // use $q(function(resolve, reject){}) instead of $q.deferred
-    'angular/deferred': 'off',
+    'angular/deferred': 'error',
     // disallow unused DI parameters
     'angular/di-unused': 'error',
     // disallow any other directive restrict than 'A' or 'E'
@@ -29,10 +29,12 @@ module.exports = {
     // disallow the use of inline templates
     'angular/no-inline-template': 'error',
     // keep run functions clean and simple (y171)
-    'angular/no-run-logic': ['off', { allowParams: true }],
+    'angular/no-run-logic': ['error', { allowParams: true }],
     // disallow DI of specified services for other angular components ($http for controllers, filters and directives)
     'angular/no-services': ['error', ['$http', '$resource', 'Restangular']],
     // require $on and $watch deregistration callbacks to be saved in a variable
-    'angular/on-watch': 'error'
+    'angular/on-watch': 'error',
+    // prefer component
+    'angular/prefer-component': 'warn'
   }
 };

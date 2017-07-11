@@ -8,6 +8,8 @@
 
 module.exports = {
   rules: {
+    // Avoid mistakes when naming methods defined on the scope object
+    'angular/avoid-scope-typos': 'off',
     // disallow to reference modules with variables and require to use the getter syntax instead
     'angular/module-getter': 'error',
     // disallow to assign modules to variables
