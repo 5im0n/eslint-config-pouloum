@@ -14,6 +14,8 @@ module.exports = {
     'global-require': 'warn',
     // Enforces error handling in callbacks (off by default) (on by default in the node environment)
     'handle-callback-err': ['error', '^.*(e|E)rr(or)?$'],
+    // disallow use of the Buffer() constructor
+    'no-buffer-constructor': 'error',
     // Disallow mixing regular variable and require declarations
     'no-mixed-requires': 'error',
     // Disallow use of new operator with the require function
