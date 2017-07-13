@@ -57,6 +57,7 @@ test('Angular', t => {
   t.true(confAngular.extends.indexOf('pouloum/rules/angular/deprecated-features') >= 0);
   t.true(confAngular.extends.indexOf('pouloum/rules/angular/naming') >= 0);
   t.true(confAngular.extends.indexOf('pouloum/rules/angular/conventions') >= 0);
+  t.true(confAngular.extends.indexOf('pouloum/rules/angular/misspelling') >= 0);
   t.true(confAngular.extends.indexOf('pouloum/rules/angular/wrappers') >= 0);
   t.true(confAngular.extends.indexOf('pouloum/configurations/browser') >= 0);
 });
