@@ -102,6 +102,12 @@ module.exports = {
     'no-proto': 'error',
     // disallow declaring the same variable more then once
     'no-redeclare': 'error',
+    // disallow certain properties on certain objects
+    'no-restricted-properties': ['error', {
+      object: 'arguments',
+      property: 'callee',
+      message: 'arguments.callee is deprecated'
+    }],
     // disallow use of assignment in return statement
     'no-return-assign': 'error',
     // disallow use of `javascript:` urls.

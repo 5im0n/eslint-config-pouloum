@@ -44,6 +44,11 @@ module.exports = {
     'key-spacing': ['off', { align: 'colon', beforeColon: false, afterColon: true }],
     // enforce spacing before and after keywords
     'keyword-spacing': ['error', { before: true, after: true, overrides: {}}],
+    // enforce position of line comments
+    'line-comment-position': ['off', {
+      position: 'above',
+      applyDefaultPatterns: true
+    }],
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     'linebreak-style': 'warn',
     // enforces empty lines around comments

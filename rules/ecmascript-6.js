@@ -49,6 +49,8 @@ module.exports = {
     'prefer-const': ['error', { destructuring: 'any' }],
     // Suggest using Reflect methods where applicable
     'prefer-reflect': 'off',
+    // disallow parseInt() in favor of binary, octal, and hexadecimal literals
+    'prefer-numeric-literals': 'error',
     // Suggest using the rest parameters instead of arguments
     'prefer-rest-params': 'error',
     // Suggest using the spread operator instead of .apply().
