@@ -100,8 +100,8 @@ module.exports = {
     'no-plusplus': 'off',
     // disallow use of certain syntax in code
     'no-restricted-syntax': ['error', 'WithStatement'],
-    // disallow space between function identifier and application
-    'no-spaced-func': 'error',
+    // require or disallow spacing between function identifiers and their invocations
+    'func-call-spacing': ['error', 'never'],
     // disallow all tabs
     'no-tabs': 'error',
     // disallow the use of ternary operators

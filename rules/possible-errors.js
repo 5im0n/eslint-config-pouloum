@@ -46,8 +46,8 @@ module.exports = {
     'no-invalid-regexp': 'error',
     // disallow irregular whitespace outside of strings and comments
     'no-irregular-whitespace': 'error',
-    // disallow negation of the left operand of an in expression
-    'no-negated-in-lhs': 'error',
+    // disallow negating the left operand of relational operators (no-unsafe-negation)
+    'no-unsafe-negation': 'error',
     // disallow the use of object properties of the global object (Math and JSON) as functions
     'no-obj-calls': 'error',
     // disallow calling some Object.prototype methods directly on objects

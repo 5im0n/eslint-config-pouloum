@@ -80,8 +80,8 @@ module.exports = {
     'no-multi-spaces': 'off',
     // disallow use of multiline strings
     'no-multi-str': 'error',
-    // disallow reassignments of native objects
-    'no-native-reassign': 'error',
+    // disallow assignment to native objects or read-only global variables
+    'no-global-assign': 'error',
     // disallow use of new operator when not part of the assignment or comparison
     'no-new': 'error',
     // disallow use of new operator for Function object
