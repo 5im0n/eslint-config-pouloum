@@ -14,6 +14,8 @@ module.exports = {
     'no-cond-assign': ['error', 'always'],
     // disallow await inside of loops
     'no-await-in-loop': 'error',
+    // disallow comparing against -0
+    'no-compare-neg-zero': 'error',
     // disallow use of console
     'no-console': 'off',
     // disallow use of constant expressions in conditions
