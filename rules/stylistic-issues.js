@@ -142,6 +142,8 @@ module.exports = {
     'semi-spacing': ['error', { before: false, after: true }],
     // sort import declarations within module
     'sort-imports': 'off',
+    // require symbol descriptions
+    'symbol-description': 'error',
     // require object keys to be sorted
     'sort-keys': ['off', 'asc', { caseSensitive: false, natural: true }],
     // sort variables within the same declaration block

@@ -14,6 +14,8 @@ module.exports = {
     'array-callback-return': 'error',
     // treat var statements as if they were block scoped
     'block-scoped-var': 'error',
+    // enforce that class methods utilize this
+    'class-methods-use-this': 'error',
     // specify the maximum cyclomatic complexity allowed in a program
     complexity: ['warn', 10],
     // require return statements to either always or never specify values
