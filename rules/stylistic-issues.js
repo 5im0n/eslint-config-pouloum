@@ -29,7 +29,7 @@ module.exports = {
     // require function expressions to have a name
     'func-names': ['warn', 'always'],
     // enforces use of function declarations or expressions
-    'func-style': ['warn', 'declaration', { 'allowArrowFunctions': true }],
+    'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
     // blacklist certain identifiers to prevent them being used
     'id-blacklist': ['error', 'e', 'cb'],
     // enforce this rules this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
@@ -37,13 +37,13 @@ module.exports = {
     // require identifiers to match the provided regular expression
     'id-match': 'off',
     // this option sets a specific tab width for your code
-    indent: ['error', 2, { 'SwitchCase': 1 }],
+    indent: ['error', 2, { SwitchCase: 1 }],
     // specify whether double or single quotes should be used in JSX attributes
     'jsx-quotes': 'error',
     // enforces spacing between keys and values in object literal properties
     'key-spacing': ['off', { align: 'colon', beforeColon: false, afterColon: true }],
     // enforce spacing before and after keywords
-    'keyword-spacing': ['error', {'before': true, 'after': true, 'overrides': {}}],
+    'keyword-spacing': ['error', { before: true, after: true, overrides: {}}],
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     'linebreak-style': 'warn',
     // enforces empty lines around comments
@@ -53,15 +53,17 @@ module.exports = {
     // specify the maximum length of a line in your program
     'max-len': ['error', 130, 4],
     // enforce a maximum number of lines per file
-    'max-lines': ['error', { max: 400, skipComments: true}],
+    'max-lines': ['error', { max: 400, skipComments: true }],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': ['warn', 4],
     // limits the number of parameters that can be used in the function declaration.
     'max-params': ['off', 10],
     // specify the maximum number of statement allowed in a function
-    'max-statements': ['warn', { max: 15 }, { ignoreTopLevelFunctions: true}],
+    'max-statements': ['warn', { max: 15 }, { ignoreTopLevelFunctions: true }],
     // specify the maximum number of statements allowed per line
-    'max-statements-per-line': ['error', { 'max': 2 }],
+    'max-statements-per-line': ['error', { max: 2 }],
+    // enforce newlines between operands of ternary expressions
+    'multiline-ternary': ['off', 'never'],
     // require a capital letter for constructors
     'new-cap': ['error', { newIsCap: true }],
     // disallow the omission of parentheses when invoking a constructor with no arguments
@@ -71,7 +73,7 @@ module.exports = {
     // require newline before return statement
     'newline-before-return': 'error',
     // enforce newline after each call when chaining the calls
-    'newline-per-chained-call': ['off', { 'ignoreChainWithDepth': 4 }],
+    'newline-per-chained-call': ['off', { ignoreChainWithDepth: 4 }],
     // disallow use of the Array constructor
     'no-array-constructor': 'error',
     // disallow use of bitwise operators
@@ -100,6 +102,8 @@ module.exports = {
     'no-restricted-syntax': ['error', 'WithStatement'],
     // disallow space between function identifier and application
     'no-spaced-func': 'error',
+    // disallow all tabs
+    'no-tabs': 'error',
     // disallow the use of ternary operators
     'no-ternary': 'off',
     // disallow trailing whitespace at the end of lines
@@ -108,17 +112,17 @@ module.exports = {
     'no-underscore-dangle': 'off',
     // disallow the use of Boolean literals in conditional expressions
     'no-unneeded-ternary': 'warn',
-     // disallow whitespace before properties
+    // disallow whitespace before properties
     'no-whitespace-before-property': 'error',
     // enforce consistent line breaks inside braces
     'object-curly-newline': ['error', { multiline: true }],
     // require or disallow padding inside curly braces
     'object-curly-spacing': ['warn', 'always', { objectsInObjects: false, arraysInObjects: true }],
     // enforce placing object properties on separate lines
-    'object-property-newline': ['warn', { 'allowMultiplePropertiesPerLine': true }],
+    'object-property-newline': ['warn', { allowMultiplePropertiesPerLine: true }],
     // allow just one var statement per function
     'one-var': ['error', 'never'],
-     // require or disallow an newline around variable declarations
+    // require or disallow an newline around variable declarations
     'one-var-declaration-per-line': 'error',
     // require assignment operator shorthand where possible or prohibit it entirely
     'operator-assignment': ['warn', 'always'],
@@ -152,8 +156,15 @@ module.exports = {
     'space-unary-ops': 'error',
     // require or disallow a space immediately following the // or /* in a comment
     'spaced-comment': ['error', 'always', {
-      exceptions: ['-', '+'],
-      markers: ['=', '!'] // space here to support sprockets directives
+      line: {
+        exceptions: ['-', '+'],
+        markers: ['=', '!'] // space here to support sprockets directives
+      },
+      block: {
+        exceptions: ['-', '+'],
+        markers: ['=', '!'], // space here to support sprockets directives
+        balanced: true
+      }
     }],
     // require or disallow Unicode byte order mark (BOM)
     'unicode-bom': 'off',

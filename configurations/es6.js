@@ -5,9 +5,7 @@ module.exports = {
     'pouloum/configurations/es5',
     'pouloum/rules/ecmascript-6'
   ],
-  env: {
-    es6: true
-  },
+  env: { es6: true },
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
@@ -19,7 +17,7 @@ module.exports = {
     }
   },
   rules: {
-     // Disallow dangling underscores in identifiers
-    'no-underscore-dangle': ['error', { 'allowAfterThis': true }]
+    // Disallow dangling underscores in identifiers
+    'no-underscore-dangle': ['error', { allowAfterThis: true }]
   }
 };
