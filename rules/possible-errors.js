@@ -56,6 +56,8 @@ module.exports = {
     'no-regex-spaces': 'error',
     // disallow sparse arrays
     'no-sparse-arrays': 'error',
+    // disallow template literal placeholder syntax in regular strings
+    'no-template-curly-in-string': 'error',
     // Avoid code that looks like two expressions but is actually one
     'no-unexpected-multiline': 'error',
     // disallow unreachable statements after a return, throw, continue, or break statement
