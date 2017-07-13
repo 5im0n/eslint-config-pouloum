@@ -11,6 +11,7 @@ module.exports = {
     'pouloum/rules/angular/naming',
     'pouloum/rules/angular/conventions',
     'pouloum/rules/angular/wrappers',
+    'pouloum/rules/angular/misspelling',
     'pouloum/configurations/browser'
   ]
 };
