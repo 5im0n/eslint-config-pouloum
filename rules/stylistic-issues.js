@@ -26,6 +26,8 @@ module.exports = {
     'consistent-this': 'off',
     // enforce newline at the end of file, with no multiple empty lines
     'eol-last': 'error',
+    // require function names to match the name of the variable or property to which they are assigned
+    'func-name-matching': ['off', 'never'],
     // require function expressions to have a name
     'func-names': ['warn', 'always'],
     // enforces use of function declarations or expressions
@@ -156,7 +158,11 @@ module.exports = {
     // require or disallow space before blocks
     'space-before-blocks': 'error',
     // require or disallow space before function opening parenthesis
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always'
+    }],
     // require or disallow spaces inside parentheses
     'space-in-parens': ['error', 'never'],
     // require spaces around operators
