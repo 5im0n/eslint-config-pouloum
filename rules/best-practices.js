@@ -142,6 +142,8 @@ module.exports = {
     'no-warning-comments': ['warn', { terms: ['todo', 'fixme'], location: 'start' }],
     // disallow use of the with statement
     'no-with': 'error',
+    // require using Error objects as Promise rejection reasons
+    'prefer-promise-reject-errors': ['off', { allowEmptyReject: true }],
     // require use of the second argument for parseInt()
     radix: ['error', 'as-needed'],
     // requires to declare all vars on top of their containing scope
