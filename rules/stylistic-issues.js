@@ -58,7 +58,13 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     'max-depth': ['warn', 4],
     // specify the maximum length of a line in your program
-    'max-len': ['error', 130, 4],
+    'max-len': ['error', 130, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true
+    }],
     // enforce a maximum number of lines per file
     'max-lines': ['error', { max: 400, skipComments: true }],
     // specify the maximum depth callbacks can be nested
