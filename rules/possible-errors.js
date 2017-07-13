@@ -12,6 +12,8 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     // disallow assignment in conditional expressions
     'no-cond-assign': ['error', 'always'],
+    // disallow await inside of loops
+    'no-await-in-loop': 'error',
     // disallow use of console
     'no-console': 'off',
     // disallow use of constant expressions in conditions
