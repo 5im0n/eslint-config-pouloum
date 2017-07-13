@@ -44,9 +44,14 @@ module.exports = {
     // Require method and property shorthand syntax for object literals (off by default)
     'object-shorthand': ['error', 'always'],
     // Suggest using arrow functions as callbacks
-    'prefer-arrow-callback': ['error', { 'allowNamedFunctions': true }],
+    'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
     // Suggest using const declaration for variables that are never modified after declared
     'prefer-const': ['error', { destructuring: 'any' }],
+    // require destructuring from arrays and/or objects
+    'prefer-destructuring': ['error', {
+      array: true,
+      object: true
+    }, { enforceForRenamedProperties: false }],
     // disallow parseInt() in favor of binary, octal, and hexadecimal literals
     'prefer-numeric-literals': 'error',
     // Suggest using the rest parameters instead of arguments
