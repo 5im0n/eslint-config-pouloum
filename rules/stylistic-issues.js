@@ -8,6 +8,8 @@
 
 module.exports = {
   rules: {
+    // enforce linebreaks after opening and before closing array brackets
+    'array-bracket-newline': ['error', { multiline: true }],
     // enforce spacing inside array brackets
     'array-bracket-spacing': ['error', 'never'],
     // disallow or enforce spaces inside of single line blocks (fixable)
