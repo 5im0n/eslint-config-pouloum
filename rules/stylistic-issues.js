@@ -191,6 +191,8 @@ module.exports = {
     }],
     // require or disallow Unicode byte order mark (BOM)
     'unicode-bom': 'off',
+    // require or disallow spacing between template tags and their literals
+    'template-tag-spacing': ['error', 'never'],
     // require regex literals to be wrapped in parentheses
     'wrap-regex': 'off'
   }
